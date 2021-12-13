@@ -9,21 +9,48 @@ h1{
 }
 
 #value{
-    font-size: 30px;
-    font-weight: 900;
+    font-size: 40px;
+    font-weight: bold;
     color: white;
 }
 
 .button-container{
     color: white;
     font-size: 16px;
+    border-radius: 3px;
+    border: none;
 }
 
 .increase{
-    background-color: violet;
+    font-size: 18px;
     border-radius: 3px;
-    border: 2px solid gold;
+    border: none;
+    padding: 5px;
+    background-color: white;
+    color: blue;
+    text-transform: uppercase;
 }
+
+.decrease{
+    font-size: 18px;
+    border-radius: 3px;
+    border: none;
+    padding: 5px;
+    background-color: white;
+    color: blue;
+    text-transform: uppercase;
+}
+
+.reset{
+    font-size: 18px;
+    border-radius: 3px;
+    border: none;
+    padding: 5px;
+    background-color: white;
+    color: blue;
+    text-transform: uppercase;
+}
+
 
 .container{
     margin-left: 450px;
